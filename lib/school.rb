@@ -14,9 +14,8 @@ class School
         ROSTER
     end
 
-    # def add_student(name, grade)
-    #     @grade = grade
-    #     ROSTER["#{grade}"] = name 
-
-    # end
+    def add_student(name, grade)
+        @grade = grade
+        ROSTER["#{grade}"] = name 
+    end
 end
