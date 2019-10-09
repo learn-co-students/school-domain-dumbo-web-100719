@@ -9,7 +9,7 @@ class School
         @roster = {}
         roster
     end
-    
+
     def roster
         @roster
     end
@@ -18,6 +18,5 @@ class School
         @grade = grade
         @roster[grade] = []
         @roster[grade] << student
-        roster = @roster
     end
 end
