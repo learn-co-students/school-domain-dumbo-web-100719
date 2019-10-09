@@ -4,6 +4,7 @@ class School
 
     attr_accessor :name
     ROSTER = {}
+    NAMEARR = []
 
     def initialize(name)
         @name = name
@@ -17,8 +18,7 @@ class School
 
     def add_student(name, grade)
         @grade = grade
-        Namearr = []
-        Namearr << name
-        ROSTER[grade] = Namearr
+        NAMEARR << name
+        ROSTER[grade] = NAMEARR
     end
 end
