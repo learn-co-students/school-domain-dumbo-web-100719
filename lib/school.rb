@@ -7,10 +7,10 @@ class School
     def initialize(name)
         @name = name
         @roster = ROSTER
-        binding.pry
+        ROSTER
     end
 
-    def self.roster
+    def roster
         ROSTER
     end
 
