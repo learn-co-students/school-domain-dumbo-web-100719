@@ -29,7 +29,7 @@ class School
     end
 
     def sort
-        @roster.each do |(grade, name_hash|
+        @roster.each do |(grade, name_hash)|
             binding.pry
         end
     end
