@@ -21,4 +21,9 @@ class School
         end
         @roster[grade] << student
     end
+
+    def grade(grade)
+        grade_keys = @roster.keys 
+        binding.pry
+    end
 end
