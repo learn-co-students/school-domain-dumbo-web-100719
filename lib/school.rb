@@ -18,5 +18,6 @@ class School
         @grade = grade
         NAMEARR << name
         self.roster[grade] = NAMEARR
+        binding.pry
     end
 end
