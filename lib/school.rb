@@ -10,7 +10,7 @@ class School
         @roster = roster
     end
 
-    def roster
+    def self.roster
         {}
     end
 
@@ -19,6 +19,5 @@ class School
         @roster[grade] = []
         @roster[grade] << student
         roster = @roster
-        binding.pry
     end
 end
