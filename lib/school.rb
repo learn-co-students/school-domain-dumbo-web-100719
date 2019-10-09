@@ -18,6 +18,7 @@ class School
         #@grade = grade
         @roster[grade] = []
         @roster[grade] << student
+        @roster
 
     end
 end
