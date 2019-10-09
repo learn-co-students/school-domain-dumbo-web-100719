@@ -23,7 +23,10 @@ class School
     end
 
     def grade(grade)
-        grade_keys = @roster.keys 
-        binding.pry
+        if @roster[grade]
+            @roster[grade]
+        end
+       # grade_keys = @roster.keys 
+        
     end
 end
