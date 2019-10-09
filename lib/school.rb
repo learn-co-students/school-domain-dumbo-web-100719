@@ -19,5 +19,5 @@ class School
         @grade = grade
         ROSTER["#{grade}"] = name
     end
-    binding.pry
 end
+binding.pry
