@@ -9,7 +9,6 @@ class School
     def initialize(name)
         @name = name
         roster
-        NAMEARR << name
     end
 
     def roster
@@ -19,6 +18,7 @@ class School
 
     def add_student(name, grade)
         @grade = grade
+        NAMNEARR << name
         ROSTER[grade] = NAMEARR
     end
 end
