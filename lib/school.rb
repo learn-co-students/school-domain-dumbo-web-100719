@@ -3,7 +3,6 @@ require "pry"
 class School
 
     attr_accessor :name
-    NAMEARR = []
 
     def initialize(name)
         @name = name
@@ -16,8 +15,7 @@ class School
 
     def add_student(name, grade)
         @grade = grade
-        NAMEARR << name
-        self.roster[grade] = NAMEARR
-        binding.pry
+        self.roster[grade] = []
+        self.roster[grade] << name
     end
 end
