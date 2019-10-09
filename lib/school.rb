@@ -2,14 +2,16 @@
 require "pry"
 class School
 
+    ROSTER = {}
+
     def initialize(name)
         @name = name
-        roster
-        # binding.pry
+        @roster = ROSTER
+        binding.pry
     end
 
-    def roster
-        {}
+    def self.roster
+        ROSTER
     end
 
     # def add_student(name, grade)
