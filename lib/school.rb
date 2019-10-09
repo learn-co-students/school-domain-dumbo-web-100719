@@ -17,6 +17,6 @@ class School
     def add_student(name, grade)
         @grade = grade
         NAMEARR << name
-        School.roster[grade] = NAMEARR
+        self.roster[grade] = NAMEARR
     end
 end
