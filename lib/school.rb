@@ -6,8 +6,8 @@ class School
 
     def initialize(name)
         @name = name
-        @roster = roster
         roster
+        @roster = roster
     end
 
     def roster
