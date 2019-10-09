@@ -26,7 +26,12 @@ class School
         if @roster[grade]
             @roster[grade]
         end
-       # grade_keys = @roster.keys 
-        
+    end
+
+    def sort
+        @roster.each do |(grade, name_hash|
+            binding.pry
+
+        end
     end
 end
