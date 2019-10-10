@@ -17,11 +17,21 @@ class School
         @roster[grade]
     end
 
+    # def sort
+    #     @roster. do |grade, student|
+    #         @roster[grade].sort!
+    #     end
+    # end
+
     def sort
-        @roster.each do |grade, student|
-            @roster[grade].sort!
+        sorted_students = {}
+        @roster.each do |grade, student| 
+            sorted_students[grade] = student.sort
         end
+        sorted_students
     end
+
 end
+
 
 
